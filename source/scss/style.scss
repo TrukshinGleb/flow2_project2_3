@@ -1,6 +1,10 @@
 @import './fonts.scss';
 @import './global.scss';
 @import './variables.scss';
+@import './mixins.scss';
 
 @import './blocks/header.scss';
 @import './blocks/nav.scss';
+@import './blocks/logo.scss';
+@import './blocks/welcome-section.scss';
+@import './blocks/title.scss';

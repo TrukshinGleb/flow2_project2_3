@@ -1,0 +1,20 @@
+.title {
+    &--main {
+        font-family: 'Bebas Neue', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 64px;
+        line-height: 64px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    &__highlight {
+        font-family: 'Bebas Neue', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 72px;
+        line-height: 72px;
+        text-transform: uppercase;
+        border: 1px solid #8E8E8E;
+    }
+}
