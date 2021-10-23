@@ -30,9 +30,23 @@ gulp.task("css", function (){
     .pipe(csso())
     .pipe(rename("style.min.css"))
     .pipe(sourcemaps.write("."))
-    .pipe(gulp.dest("duild/css"))
+    .pipe(gulp.dest("build/css"))
 });  
- 
+
+gulp.task("copy", function () {
+  return gulp.src([
+    "source/fonts/**/*.{woff,woff2}",
+    "source/js/**/*",
+    "source/img/*",
+    "!source/img/icon-*.svg",
+    "source/bg/*",
+    "source/*.ico*"
+  ], {
+    base: "source"
+  })
+  .pipe(gulp.dest("build"));
+});
+
 
 
   
