@@ -1,4 +1,5 @@
 .title {
+
     &--main {
         font-family: 'Bebas Neue', sans-serif;
         font-style: normal;
@@ -7,14 +8,29 @@
         line-height: 64px;
         text-transform: uppercase;
         color: #FFFFFF;
+        z-index: 1;
+        position: relative;
     }
+
     &__highlight {
-        font-family: 'Bebas Neue', sans-serif;
         font-style: normal;
         font-weight: bold;
         font-size: 72px;
         line-height: 72px;
         text-transform: uppercase;
-        border: 1px solid #8E8E8E;
+        color: transparent;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #8E8E8E;
+    }
+    
+}
+
+@media (min-width: 1220px) {
+    .title {
+
+        &--main {
+            font-size: 190px;
+            line-height: 190px;
+        }
     }
 }

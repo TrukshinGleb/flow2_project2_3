@@ -1,4 +1,22 @@
 .welcome-section{ 
     width: 100%;
+
+    &__wrapper {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+
+        padding: 0 15px;
+
+        position: relative;
+    }
     
+}
+
+@media (min-width: 1220px) {
+    .welcome-section{ 
+        &__wrapper {
+            padding: 0;
+        }  
+    }
 }

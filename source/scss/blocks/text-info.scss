@@ -1,0 +1,16 @@
+.text-info {
+    font-family: 'SF Pro Display', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+    &--bolder {
+        font-weight: 500;
+    }
+
+    &--to-right {
+        margin-left: 165px;
+    }
+}
