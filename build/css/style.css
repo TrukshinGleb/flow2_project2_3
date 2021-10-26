@@ -1,0 +1,154 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+  background-color: #262626;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.header {
+  width: 100%;
+  background-color: transparent;
+}
+.header__wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__theme-toggler {
+  border: none;
+  background-color: transparent;
+  width: 25px;
+  height: 25px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.nav__togler {
+  width: 45px;
+  height: 45px;
+  border: none;
+  background-color: transparent;
+}
+.nav__list {
+  display: none;
+}
+.nav__contact {
+  display: none;
+}
+
+.logo {
+  width: 45px;
+  height: 20px;
+}
+
+.welcome-section {
+  width: 100%;
+}
+.welcome-section__wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  position: relative;
+}
+
+@media (min-width: 1220px) {
+  .welcome-section__wrapper {
+    padding: 0;
+  }
+}
+.title--main {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 64px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  z-index: 1;
+  position: relative;
+}
+.title__highlight {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 72px;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #8E8E8E;
+}
+
+@media (min-width: 1220px) {
+  .title--main {
+    font-size: 190px;
+    line-height: 190px;
+  }
+}
+.welcome-img {
+  width: 178px;
+  height: 166px;
+  position: absolute;
+  right: 0;
+  top: 12px;
+}
+
+@media (min-width: 1220px) {
+  .welcome-img {
+    width: 608px;
+    height: 569px;
+  }
+}
+.text-info {
+  font-family: "SF Pro Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+.text-info--bolder {
+  font-weight: 500;
+}
+.text-info--to-right {
+  margin-left: 165px;
+}

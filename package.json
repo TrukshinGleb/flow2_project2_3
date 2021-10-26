@@ -7,9 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "gulp": "gulp html",
     "start": "gulp start",
-    "css": "gulp",
-    "copy": "gulp copy",
-    "build": "gulp build"
+    "css": "gulp"
   },
   "repository": {
     "type": "git",
@@ -38,8 +36,8 @@
     "gulp-uglify-es": "^3.0.0",
     "gulp-webp": "^4.0.1",
     "postcss": "^8.3.9",
-    "sass": "^1.43.3",
-    "v": "^0.3.0"
+    "readable-stream": "^3.6.0",
+    "sass": "^1.43.3"
   },
   "dependencies": {
     "append-buffer": "^1.0.2",
@@ -81,7 +79,6 @@
     "escalade": "^3.1.1",
     "escape-html": "^1.0.3",
     "escape-string-regexp": "^1.0.5",
-    "esm": "^3.2.25",
     "etag": "^1.8.1",
     "eventemitter3": "^4.0.7",
     "ext": "^1.6.0",

@@ -3,8 +3,8 @@
 var fs = require('fs')
 var gulp = require("gulp");
 var plumber = require("gulp-plumber");
-var sourcemap = require("gulp-sourcemaps");
-var scss = require("gulp-sass");
+var sourcemaps = require("gulp-sourcemaps");
+var scss = require('gulp-sass')(require('sass'));
 var server = require("browser-sync").create();
 var csso = require("gulp-csso");
 var rename = require("gulp-rename");
@@ -90,10 +90,10 @@ gulp.task("copy", function () {
 gulp.task("js", function () {
   return pipeline(
     gulp.src("source/js/*.js"),
-    sourcemap.init(),
+    sourcemaps.init(),
     uglify(),
     rename({suffix: ".min"}),
-    sourcemap.write("."),
+    sourcemaps.write("."),
     gulp.dest("build/js")
   );
 });
