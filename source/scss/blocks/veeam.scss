@@ -1,0 +1,16 @@
+.veeam {
+    width: 270px;
+    height: 113px;
+    border: 1px solid #7A7A7A;
+    margin-top: 50px;
+    margin-bottom: 40px;
+
+    &__logo {
+        padding-top: 39px;
+        padding-bottom: 38px;
+        padding-left: 35px;
+        padding-right: 35px;
+        margin-block-start: 0;
+        margin-block-end: 0;
+    }
+}

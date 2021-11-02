@@ -13,4 +13,48 @@
     &--to-right {
         margin-left: 165px;
     }
+
+    &--main {
+        font-weight: normal;
+    }
+
+    &--footer {
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        color: #FFFFFF;
+        opacity: 0.4;
+        margin-top: 25px;
+    }
+
+    &--contacts {
+        font-family: 'Bebas Neue', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 56px;
+        line-height: 56px;
+        color: #FFFFFF;
+        margin-left: 71px;
+        margin-bottom: 67px;
+    }
+
+    &--security {
+        font-family: 'SF Pro Display', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 14px;
+        color: #A0A0A0;
+        opacity: 0.54;
+    }
+
+    &--webnauts {
+        font-family: 'SF Pro Display', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+
 }

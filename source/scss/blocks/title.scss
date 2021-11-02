@@ -22,7 +22,24 @@
         -webkit-text-stroke-width: 1px;
         -webkit-text-stroke-color: #8E8E8E;
     }
-    
+
+    &--context {
+        font-family: 'Bebas Neue', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 43px;
+        color: #FFFFFF;
+    }
+
+    &--accordeon {
+        font-family: 'SF Pro Display', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
 }
 
 @media (min-width: 1220px) {

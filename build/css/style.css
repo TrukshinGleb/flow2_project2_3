@@ -1,3 +1,75 @@
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("../fonts/BebasNeueRegular.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("../fonts/BebasNeueBold.woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("../fonts/BebasNeue-Thin.woff");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("../fonts/BebasNeueLight.woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../fonts/SFProDisplay-Regular.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../fonts/SFProDisplay-Semibold.woff");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../fonts/SFProDisplay-Bold.woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../fonts/SFProDisplay-Thin.woff");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../fonts/SFProDisplay-Light.woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../fonts/SFProDisplay-Medium.woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../fonts/SFProDisplay-Heavy.woff");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../fonts/SFProDisplay-Black.woff");
+  font-weight: 900;
+  font-style: normal;
+}
 *,
 *::before,
 *::after {
@@ -59,7 +131,6 @@ img {
   background-color: transparent;
   width: 25px;
   height: 25px;
-  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .nav__togler {
@@ -117,6 +188,22 @@ img {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #8E8E8E;
 }
+.title--context {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 43px;
+  color: #FFFFFF;
+}
+.title--accordeon {
+  font-family: "SF Pro Display", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
 
 @media (min-width: 1220px) {
   .title--main {
@@ -151,4 +238,161 @@ img {
 }
 .text-info--to-right {
   margin-left: 165px;
+}
+.text-info--main {
+  font-weight: normal;
+}
+.text-info--footer {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  opacity: 0.4;
+  margin-top: 25px;
+}
+.text-info--contacts {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 56px;
+  color: #FFFFFF;
+  margin-left: 71px;
+  margin-bottom: 67px;
+}
+.text-info--security {
+  font-family: "SF Pro Display", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  color: #A0A0A0;
+  opacity: 0.54;
+}
+.text-info--webnauts {
+  font-family: "SF Pro Display", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.about-pic {
+  width: 136px;
+  height: 205px;
+}
+
+.webnauts-img {
+  width: 321px;
+  height: 595px;
+}
+
+.footer {
+  width: 100%;
+}
+.footer__context {
+  margin-left: 18px;
+  margin-bottom: 84px;
+  margin-top: 100px;
+}
+.footer__list {
+  display: flex;
+  flex-direction: column;
+}
+.footer__security {
+  margin-left: 15px;
+}
+
+.result-block {
+  width: 345px;
+  height: 215px;
+  border: 1px solid #4F4F4F;
+}
+.result-block__title {
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 100px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-top: 26px;
+  padding-left: 30px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.result-block__text {
+  font-family: "SF Pro Display", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  padding-left: 30px;
+  padding-bottom: 26px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.veeam {
+  width: 270px;
+  height: 113px;
+  border: 1px solid #7A7A7A;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+.veeam__logo {
+  padding-top: 39px;
+  padding-bottom: 38px;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.projects {
+  margin-top: 50px;
+  margin-left: 15px;
+}
+
+.project-slide {
+  margin-top: 248px;
+  margin-left: 15px;
+}
+
+.team-slide {
+  margin-left: 15px;
+}
+.team-slide__img-1 {
+  width: 286px;
+  height: 265px;
+}
+.team-slide__img-2 {
+  width: 299px;
+  height: 210px;
+}
+.team-slide__img-3 {
+  width: 320px;
+  height: 280px;
+}
+.team-slide__img-4 {
+  width: 275px;
+  height: 253px;
+}
+.team-slide__img-5 {
+  width: 285px;
+  height: 229px;
+}
+.team-slide__img-6 {
+  width: 300px;
+  height: 244px;
+}
+
+.grow-slide {
+  margin-left: 15px;
+}
+.grow-slide__img {
+  width: 292px;
+  height: 200px;
 }

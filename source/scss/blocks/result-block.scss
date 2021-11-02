@@ -1,0 +1,32 @@
+.result-block {
+    width: 345px;
+    height: 215px;
+    border: 1px solid #4F4F4F;
+
+    &__title {
+        font-family: 'Bebas Neue', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 100px;
+        line-height: 100px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding-top: 26px;
+        padding-left: 30px;
+        margin-block-start: 0;
+        margin-block-end: 0;
+    }
+
+    &__text{
+        font-family: 'SF Pro Display', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        padding-left: 30px;
+        padding-bottom: 26px;
+        margin-block-start: 0;
+        margin-block-end: 0;
+    }
+}
