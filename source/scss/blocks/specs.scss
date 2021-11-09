@@ -1,0 +1,87 @@
+.specs {
+    width: 100%;
+
+    &__wrapper {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__list{
+        list-style: none;
+        details > summary {
+            list-style: none;
+        }
+    }
+
+    &__list-title {
+        font-family: 'SF Pro Display', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+
+        margin-top: 44px;
+        
+        &--number {
+            font-family: 'SF Pro Display', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+            color: #4F4F4F;
+
+            padding-right: 16px;
+        }
+    }
+
+    &__text {
+        font-family: 'SF Pro Display', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 22px;
+        color: #FFFFFF;
+
+        width: 345px;
+        height: 198px;
+
+        margin-top: 41px;
+        margin-bottom: 35px;
+    }
+}
+
+@media (min-width: 1220px) {
+    .specs {
+        &__wrapper {
+            margin: 0 auto;
+            padding: 0 15px;
+    
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        &__list-title {
+            margin-top: 40px;
+            padding-right: 375px;
+            
+            &--number {
+                padding-right: 24px;
+            }
+        }
+
+        &__text {
+            width: 614px;
+            height: 120px;
+
+            margin-bottom: 56px;
+        }
+    }
+}

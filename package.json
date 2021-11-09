@@ -37,7 +37,8 @@
     "gulp-webp": "^4.0.1",
     "postcss": "^8.3.9",
     "readable-stream": "^3.6.0",
-    "sass": "^1.43.3"
+    "sass": "^1.43.3",
+    "swiper": "^7.2.0"
   },
   "dependencies": {
     "append-buffer": "^1.0.2",

@@ -1,0 +1,1 @@
+const sliper = new Swiper('slider__wrapper');
